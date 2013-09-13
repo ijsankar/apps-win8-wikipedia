@@ -78,11 +78,6 @@
     <Application Id="App" StartPage="default.html">
       <Extensions>
         <Extension Category="windows.search" />
-        <Extension Category="windows.shareTarget" StartPage="target.html">
-          <ShareTarget>
-            <DataFormat>Text</DataFormat>
-          </ShareTarget>
-        </Extension>
       </Extensions>
       <m2:VisualElements DisplayName="Wikipedia" Description="Wikipedia Mobile for Windows 8" BackgroundColor="#ffffff" ForegroundText="dark" Square150x150Logo="win8-tile.png" Square30x30Logo="win8-small-tile.png">
         <m2:DefaultTile Wide310x150Logo="win8-wide-tile.png">
