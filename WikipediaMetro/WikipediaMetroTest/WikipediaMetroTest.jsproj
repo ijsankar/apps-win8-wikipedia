@@ -46,7 +46,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>WikipediaMetroTest_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <PackageCertificateThumbprint>EA9AA557F872C6D4818F71C5139A7B3050902EC7</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>6522424042B10F5FAF832030C8E8BB43F3898970</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
