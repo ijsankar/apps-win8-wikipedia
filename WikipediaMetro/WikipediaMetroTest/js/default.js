@@ -992,6 +992,7 @@
         // Empty any old contents
         var list = HubContents.itemList;
         list.splice(0, list.length);
+        document.getElementById('hub-list').winControl.forceLayout();
 
         var pings = 4, nErrors = 0, nItems = 0;
         var completeAnother = function () {
