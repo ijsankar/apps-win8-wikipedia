@@ -1205,7 +1205,7 @@
                 nErrors++;
             }
             recentchanges.forEach(function (change) {
-                if (change.ns == 0 && change.type == 'edit') {
+                if (change.ns == 0 && change.type == 'edit' || change.type == 'external') {
                     nItems++;
                     list.push({
                         title: change.title,
