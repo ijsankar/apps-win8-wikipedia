@@ -189,8 +189,12 @@
                 $(document).bind('keydown', function (event) {
                     // Backspace to go back
                     if (event.keyCode == 8) {
-                        doGoBack();
-                        event.preventDefault();
+                        if ($(event.target).closest('.win-searchbox').length) {
+                            // But don't eat backspaces from search box!
+                        } else {
+                            doGoBack();
+                            event.preventDefault();
+                        }
                     }
                     if (event.ctrlKey && event.keyCode == 'F'.charCodeAt(0)) {
                         if (state.current().type == 'article') {
