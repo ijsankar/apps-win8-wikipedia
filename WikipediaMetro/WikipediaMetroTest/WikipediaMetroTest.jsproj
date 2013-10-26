@@ -49,6 +49,8 @@
     <PackageCertificateThumbprint>489ED305197B8A36543E2EA7AC1CCF4ED8973FA2</PackageCertificateThumbprint>
     <VisualStudioVersion>12.0</VisualStudioVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <AppxBundle>Always</AppxBundle>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
