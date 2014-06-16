@@ -1045,7 +1045,12 @@
                         // Skip a link containing an image
                         continue;
                     }
-                    title = extractWikiTitle($link.attr('href'));
+                    try {
+                        title = extractWikiTitle($link.attr('href'));
+                    } catch (e) {
+                        // Skip weirdly broken links
+                        continue;
+                    }
                     break;
                 }
                 if ($imgs.length) {
