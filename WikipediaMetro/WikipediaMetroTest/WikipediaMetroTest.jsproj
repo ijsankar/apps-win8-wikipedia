@@ -44,9 +44,9 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>WikipediaMetroTest_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>WikipediaMetroTest_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <PackageCertificateThumbprint>489ED305197B8A36543E2EA7AC1CCF4ED8973FA2</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>A5D723E21510C46AB26B4CBDBF3131C862CB6569</PackageCertificateThumbprint>
     <VisualStudioVersion>12.0</VisualStudioVersion>
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
