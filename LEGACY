@@ -1,0 +1,8 @@
+This is a legacy archival project, split out from older versions
+of the original PhoneGap-based Wikipedia mobile app. It is no
+longer being actively developed, though it may be replaced.
+
+License for this code, which includes some JavaScript bits from
+MediaWiki, is GNU GPL v2 or later -- see file COPYING.
+
+See file README.md for more Win8-specific info.
